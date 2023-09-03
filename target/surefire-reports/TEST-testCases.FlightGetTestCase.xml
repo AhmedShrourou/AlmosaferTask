@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testCases.FlightGetTestCase" time="0.784" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/admin/Documents/GitHub/AlmosaferTask/target/test-classes:/Users/admin/Documents/GitHub/AlmosaferTask/target/classes:/Users/admin/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/admin/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/admin/.m2/repository/io/rest-assured/rest-assured/4.3.0/rest-assured-4.3.0.jar:/Users/admin/.m2/repository/org/codehaus/groovy/groovy/3.0.2/groovy-3.0.2.jar:/Users/admin/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.2/groovy-xml-3.0.2.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/admin/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/admin/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/admin/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/admin/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/admin/.m2/repository/io/rest-assured/xml-path/4.3.0/xml-path-4.3.0.jar:/Users/admin/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/admin/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/Users/admin/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/admin/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/Users/admin/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/admin/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/admin/.m2/repository/io/rest-assured/json-path/4.3.0/json-path-4.3.0.jar:/Users/admin/.m2/repository/org/codehaus/groovy/groovy-json/3.0.2/groovy-json-3.0.2.jar:/Users/admin/.m2/repository/io/rest-assured/rest-assured-common/4.3.0/rest-assured-common-4.3.0.jar:/Users/admin/.m2/repository/org/json/json/20090211/json-20090211.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Amman"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="JO"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/14.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/admin/Documents/GitHub/AlmosaferTask/target/surefire/surefirebooter-20230904015953492_3.jar /Users/admin/Documents/GitHub/AlmosaferTask/target/surefire 2023-09-04T01-59-53_279-jvmRun1 surefire-20230904015953492_1tmp surefire_0-20230904015953492_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/admin/Documents/GitHub/AlmosaferTask/target/test-classes:/Users/admin/Documents/GitHub/AlmosaferTask/target/classes:/Users/admin/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/admin/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/admin/.m2/repository/io/rest-assured/rest-assured/4.3.0/rest-assured-4.3.0.jar:/Users/admin/.m2/repository/org/codehaus/groovy/groovy/3.0.2/groovy-3.0.2.jar:/Users/admin/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.2/groovy-xml-3.0.2.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/admin/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/admin/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/admin/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/admin/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/admin/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/admin/.m2/repository/io/rest-assured/xml-path/4.3.0/xml-path-4.3.0.jar:/Users/admin/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/admin/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/Users/admin/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/admin/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/Users/admin/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/admin/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/admin/.m2/repository/io/rest-assured/json-path/4.3.0/json-path-4.3.0.jar:/Users/admin/.m2/repository/org/codehaus/groovy/groovy-json/3.0.2/groovy-json-3.0.2.jar:/Users/admin/.m2/repository/io/rest-assured/rest-assured-common/4.3.0/rest-assured-common-4.3.0.jar:/Users/admin/.m2/repository/org/json/json/20090211/json-20090211.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/14.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/admin/Documents/GitHub/AlmosaferTask"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/admin/Documents/GitHub/AlmosaferTask/target/surefire/surefirebooter-20230904015953492_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="14.0.1+14"/>
+    <property name="user.name" value="admin"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/admin/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/zm/_3vx5_ws34xb5wf750b52tjr0000gn/T/"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="user.dir" value="/Users/admin/Documents/GitHub/AlmosaferTask"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/admin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="14.0.1+14"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="FlightGetResourceHappyCase" classname="testCases.FlightGetTestCase" time="0.422">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://www.almosafer.com/api/flight/resource/codes/DXB
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 03 Sep 2023 22:59:57 GMT
+Content-Type: application/json
+Content-Length: 245
+Connection: keep-alive
+X-Real-IP: 109.107.243.77
+CF-Ray: 80119b2ee9f51bc3-FRA
+CF-Cache-Status: DYNAMIC
+Access-Control-Allow-Origin: www.almosafer.com
+Cache-Control: must-revalidate, post-check=0, pre-check=0, private
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: 
+Access-Control-Allow-Methods: HEAD, GET, POST, OPTIONS, PUT, DELETE
+Content-Security-Policy: upgrade-insecure-requests; base-uri 'self'; object-src 'self'; frame-ancestors https://almosafer.com https://*.almosafer.com https://z2.le.liveperson.net;
+Pragma: no-cache
+Referrer-Policy: no-referrer-when-downgrade
+X-Adebug-host: flights-flight-api.flights.svc.cluster.local
+X-Adebug-host: www.almosafer.com
+X-Adebug-port: 80
+X-Adebug-port: 80
+X-Adebug-real-ip: 10.160.206.247
+X-Adebug-real-ip: 10.160.92.170
+X-Adebug-ruri: /flight/resource/codes/DXB
+X-Adebug-ruri: /api/flight/resource/codes/DXB
+X-Alimit-rpath: /flight/resource/codes/DXB
+X-Alimit-rpath: /api/flight/resource/codes/DXB
+X-ARuntime: 0.014
+X-ARuntime: 0.038
+X-AServed-By: 10.160.142.88
+X-AServed-By: 10.160.206.247
+X-Aus: 127.0.0.1:9002
+X-Aus: 127.0.0.1:9002
+X-Content-Type-Options: nosniff
+x-encoded-content-encoding: gzip
+x-env-type: prod
+X-GeoIP-City: Amman
+X-GeoIP-Country: Jordan
+X-GeoIP-Country-Code: JO
+X-GeoIP-Region: Amman Governorate
+X-is-bot-api: 0
+X-is-bot-api: 0
+x-real-client-ip: 109.107.243.77
+X-XSS-Protection: 1; mode=block
+Set-Cookie: __cf_bm=7p__UpXYVN0PrTH.wn7FBe09yZWdAKRyedjXykHe0eg-1693781997-0-AQDVBCvG/JarKEj7t1T6dAJwtuEax/5KjClUgU9Kv3KnDqKKURuNawEFwYXC/D6UnzZYmNu9dpsn14g0WT5fU4U=; path=/; expires=Sun, 03-Sep-23 23:29:57 GMT; domain=.almosafer.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+alt-svc: h3=":443"; ma=86400
+
+{
+    "airline": [
+        
+    ],
+    "airport": [
+        {
+            "code": "DXB",
+            "tz": "Asia/Dubai",
+            "timeZone": "4.00",
+            "type": "1",
+            "label": {
+                "en": "Dubai International Airport",
+                "ar": "مطار دبي الدولي"
+            },
+            "country": {
+                "label": {
+                    "en": "United Arab Emirates",
+                    "ar": "الإمارات العربية المتحدة"
+                },
+                "code": "AE"
+            },
+            "city": {
+                "en": "Dubai",
+                "ar": "دبى"
+            }
+        }
+    ]
+}
+Status code = 200
+]]></system-out>
+  </testcase>
+  <testcase name="FlightGetResourceNegative" classname="testCases.FlightGetTestCase" time="0.361">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://www.almosafer.com/api/flight/resource/codes/asfaffs
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 03 Sep 2023 22:59:58 GMT
+Content-Type: application/json
+Content-Length: 42
+Connection: keep-alive
+X-Real-IP: 109.107.243.77
+CF-Ray: 80119b315ccd4db9-FRA
+CF-Cache-Status: DYNAMIC
+Access-Control-Allow-Origin: www.almosafer.com
+Cache-Control: must-revalidate, post-check=0, pre-check=0, private
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: 
+Access-Control-Allow-Methods: HEAD, GET, POST, OPTIONS, PUT, DELETE
+Content-Security-Policy: upgrade-insecure-requests; base-uri 'self'; object-src 'self'; frame-ancestors https://almosafer.com https://*.almosafer.com https://z2.le.liveperson.net;
+Pragma: no-cache
+Referrer-Policy: no-referrer-when-downgrade
+X-Adebug-host: flights-flight-api.flights.svc.cluster.local
+X-Adebug-host: www.almosafer.com
+X-Adebug-port: 80
+X-Adebug-port: 80
+X-Adebug-real-ip: 10.160.206.247
+X-Adebug-real-ip: 10.160.179.132
+X-Adebug-ruri: /flight/resource/codes/asfaffs
+X-Adebug-ruri: /api/flight/resource/codes/asfaffs
+X-Alimit-rpath: /flight/resource/codes/asfaffs
+X-Alimit-rpath: /api/flight/resource/codes/asfaffs
+X-ARuntime: 0.011
+X-ARuntime: 0.036
+X-AServed-By: 10.160.75.80
+X-AServed-By: 10.160.206.247
+X-Aus: 127.0.0.1:9002
+X-Aus: 127.0.0.1:9002
+X-Content-Type-Options: nosniff
+x-encoded-content-encoding: gzip
+x-env-type: prod
+X-GeoIP-City: Amman
+X-GeoIP-Country: Jordan
+X-GeoIP-Country-Code: JO
+X-GeoIP-Region: Amman Governorate
+X-is-bot-api: 0
+X-is-bot-api: 0
+x-real-client-ip: 109.107.243.77
+X-XSS-Protection: 1; mode=block
+Set-Cookie: __cf_bm=QvrmM12jzNtS5xoSkCae3MmF.ETAspbILJcqhG6UxDI-1693781998-0-AZUVHu/cQCnzw4cjBYdrvv0V0RprCHvVGduNZNLBDSj/eFNf97xghpRA+bRxZUWVykqmh0SqZY6Y/gVtQffqwrU=; path=/; expires=Sun, 03-Sep-23 23:29:58 GMT; domain=.almosafer.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+alt-svc: h3=":443"; ma=86400
+
+{
+    "airline": [
+        
+    ],
+    "airport": [
+        
+    ]
+}
+Status code = 200
+]]></system-out>
+  </testcase>
+</testsuite>
